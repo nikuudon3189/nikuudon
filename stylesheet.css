@@ -1,0 +1,423 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.first_view{
+	background-color: #00334e;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+    position: fixed;
+	z-index: 10;
+	
+}
+#logo{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+path{
+  fill: none;
+  stroke: #ffffff;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  stroke-width: 1;
+  -webkit-animation: hello 4s ease-in forwards;
+  animation: hello 4s ease-in forwards;
+}
+ @-webkit-keyframes hello {
+ 0% {
+ stroke-dashoffset: 2000;
+ fill:transparent; 
+}
+ 50% {
+ fill:transparent; 
+}
+ 100% {
+ stroke-dashoffset: 0;
+ fill:#ffffff;
+}
+}
+@keyframes hello {
+ 0% {
+ stroke-dashoffset: 2000;
+ fill:transparent; 
+}
+ 50% {
+ fill:transparent; 
+}
+ 100% {
+ stroke-dashoffset: 0;
+ fill:#ffffff;
+}
+}
+
+/* ここからPCサイズ　*/
+   html{
+	   
+   }
+   body{
+	   width: 1366px;
+	   margin: 0 auto;
+       background-color: #e8e8e8;
+		 
+   }
+	header{
+		width: 1366px;
+		
+	}
+	header p{
+	    width: 0;
+		margin-left: 445px;
+    }
+	header p img{
+		width: 476px;
+		height: 166px;
+		margin-top: 62px;
+		
+	}
+	.introduction{
+		width: 1366px;
+		height: 350px;
+	}
+	.introduction p img{
+		width: 206px;
+		height: 206px;
+		border-radius: 103px;
+	    object-fit: cover;
+		float: left;
+		margin-top: 87px;
+		margin-left: 192px;
+	}
+	.introduction h2{
+		color: #00334E;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+		font-size: 63px;
+		float: left;
+		margin-top: 87px;
+		margin-left: 65px;
+		margin-bottom: 11px;
+	}
+	.introduction ul{
+	    float: left;
+	    margin-top: 11px;
+	    margin-left: 65px;
+	    padding: 0;
+    }
+	.introduction ul li{
+		font-size: 25px;
+		list-style: none;
+	    color: #00334E;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    line-height: 30px;
+	    padding: 0;
+	}
+	.dream{
+	    width: 100%;
+	    height: 474px;
+	    background-color: #00334E;  
+    }
+
+    .dream h2{
+	    color: #e8e8e8;
+	    font-size: 63px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin-left: 192px;
+	
+}
+    .dream ul{
+	    margin-left: 192px;
+	    margin-top: 60px;
+	
+}
+    .dream ul li{
+	    color: #e8e8e8;
+	    font-size: 30px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+}
+
+    .mytwitter{
+	    width: 1366px;
+	
+}
+
+    .mytwitter h2{
+	    color: #00334E;
+	    font-size: 63px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin-left: 230px;
+	    margin-bottom: 18px;
+}
+    .mytwitter p{
+	    color: #00334E;
+	    font-size: 30px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin-left: 230px;
+}
+    .twitter-timeline{
+	    margin-left: 230px;
+	    border: bottom 2px solid;
+}
+    form {
+	    width: 1366px;
+	
+}
+
+    form h2{
+	    color: #00334E;
+	    font-size: 63px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin-left: 230px;
+	    margin-bottom: 56px;
+}
+    form p{
+	    font-size: 25px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    color: #00334E;
+	    margin-left: 230px;
+	    margin-bottom: 16px;
+}
+    form input{
+	    width: 483px;
+	    height: 33px;
+	    border: 1px solid #707070;
+	    border-radius: 8px;
+	    margin-left: 230px;
+	    font-size: 25px;
+	
+}
+    form textarea{
+	    width: 906px;
+	    height: 137px;
+		border-radius: 8px;
+		border: 1px solid #707070;
+	    margin-left: 230px;
+	    font-size: 25px;
+}
+	.buttun{
+		width: 171px;
+		height: 47px;
+		color: #e8e8e8;
+		background-color: #00334E;
+		margin-bottom: 100px;
+	}
+
+@media screen and (max-width: 376px){
+.first_view{
+	background-color: #00334e;
+	margin: 0;
+	width: 375px;
+	height: 2571px;
+    position: fixed;
+	z-index: 10;
+	
+}
+#logo{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+path{
+  fill: none;
+  stroke: #ffffff;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  stroke-width: 1;
+  -webkit-animation: hello 4s ease-in forwards;
+  animation: hello 4s ease-in forwards;
+}
+ @-webkit-keyframes hello {
+ 0% {
+ stroke-dashoffset: 2000;
+ fill:transparent; 
+}
+ 50% {
+ fill:transparent; 
+}
+ 100% {
+ stroke-dashoffset: 0;
+ fill:#ffffff;
+}
+}
+@keyframes hello {
+ 0% {
+ stroke-dashoffset: 2000;
+ fill:transparent; 
+}
+ 50% {
+ fill:transparent; 
+}
+ 100% {
+ stroke-dashoffset: 0;
+ fill:#ffffff;
+}
+}
+
+/* ここからスマホサイズ　*/
+   html{
+	   width: 375px;
+   }
+   body{
+	   width: 375px;
+	   margin: 0 auto;
+       background-color: #e8e8e8;
+		 
+   }
+	header{
+		width: 0;
+		
+	}
+	header p{
+	    width: 0;
+		margin: 0 auto;
+    }
+	header p img{
+		width: 271px;
+		height: 96px;
+		margin-top: 62px;
+	}
+	.introduction{
+		width: 375px;
+		height: 600px;
+	}
+	.introduction p{
+		
+	}
+	.introduction p img{
+		width: 122px;
+		height: 122px;
+		border-radius: 61px;
+	    object-fit: cover;
+		align-items: center;
+		margin-top: 25px;
+	}
+	.introduction h2{
+		margin: 0 auto;
+		margin-top: 19px;
+	    color: #e8e8e8;
+	    font-size: 48px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    text-align: center;
+	}
+	.introduction ul{
+	    margin-top: 43px;
+	    margin: 0 auto;
+	    padding: 0;
+    }
+	.introduction ul li{
+		font-size: 20px;
+		list-style: none;
+	    color: #00334E;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    line-height: 30px;
+	    padding: 0;
+		text-align: center;
+		margin-bottom: 30px;
+		margin-bottom: 10px;
+	}
+	.dream{
+	    width: 375px;
+	    height: 474px;
+	    background-color: #00334E;  
+		margin-top: 10px;
+    }
+
+    .dream h2{
+		margin: 0 auto;
+		margin-top: 62px;
+	    color: #e8e8e8;
+	    font-size: 48px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    text-align: center;
+	
+}
+    .dream ul{
+	    margin: 0 auto;
+	    margin-top: 60px;
+	
+}
+    .dream ul li{
+	    color: #e8e8e8;
+	    font-size: 20px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+		text-align: center;
+		list-style: none;
+}
+
+    .mytwitter{
+	    width: 375px;
+	    height: 1000px;
+		margin: 0 auto;
+}
+
+    .mytwitter h2{
+	    color: #00334E;
+	    font-size: 63px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin: 0 auto;
+		margin-top: 66px;
+}
+    .mytwitter p{
+	    color: #00334E;
+	    font-size: 20px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin: 0 auto;
+		text-align: center;
+	
+}
+    .twitter-timeline{
+	    margin: 0 auto;
+	    border: bottom 2px solid;
+}
+    form {
+	    width: 375px;
+	    margin-top: 30px;
+}
+
+    form h2{
+	    color: #00334E;
+	    font-size: 41px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    margin: 0 auto;
+	    margin-bottom: 35px;
+}
+    form p{
+	    font-size: 25px;
+	    font-family: "ヒラギノ角ゴ Pro W3";
+	    color: #00334E;
+	    margin: 0 auto;
+	    margin-bottom: 16px;
+}
+    form input{
+	    width: 239px;
+	    height: 33px;
+	    border: 1px solid #707070;
+	    border-radius: 8px;
+	    margin: 0 auto;
+	    font-size: 25px;
+	
+}
+    form textarea{
+	    width: 239px;
+	    height: 310px;
+		border-radius: 8px;
+		border: 1px solid #707070;
+	    margin: 0 auto;
+	    font-size: 25px;
+}
+	.buttun{
+		width: 171px;
+		height: 47px;
+		color: #e8e8e8;
+		background-color: #00334E;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+}
+
